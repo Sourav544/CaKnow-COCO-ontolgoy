@@ -1,0 +1,3457 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/shrey/ontologies/2024/6/coco.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/shrey/ontologies/2024/6/coco.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/shrey/ontologies/2024/6/coco.owl/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="coco" IRI="http://www.semanticweb.org/shrey/ontologies/2024/6/coco.owl#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Air_vehicles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airplane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Annotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Appliance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BackPack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Badminton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baseball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BasketBall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basketball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bedding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Birds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bodyofwater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bowl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boxing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bridge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Car"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carpet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Combat_sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Curtain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cycling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daisy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Darts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dishwash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dryer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Décor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eagle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electric_vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elephant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flowers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodBowl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Football"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frisbee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fungi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Furniture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geographic_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Giraffes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goldfish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Golf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helicopter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Highway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hockey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Household_things"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hybrid_vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Individual_sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jacket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kitchenware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Land_Vehicles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laptop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lilly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Luxury_vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mammals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Martial_Arts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motorcycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mushroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutdoorGear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oven"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Painting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PetAccessories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PetBed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Racket_sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecreationalEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refrigerator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Running"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salmon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shooting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Silverware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skateboard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SleepingBag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smartphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soccer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sofa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sparrow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportsEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Squash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Submarine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sunflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sunglasses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swimming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Table_Tennis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Target_sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Team_Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Television"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tennis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Textile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tiger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Towel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrafficLight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Train"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Truck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Washing_machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water_vehicles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrestling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yeast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZebraCrossing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a_river"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#accordion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bikes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#broccoli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#city"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clothing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#couch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electronic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#field"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#foods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#football"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#forest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#horse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#landform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#leash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mountain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ocean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roadWays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#settlement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shirt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#street"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#suit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#surfbroards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#table"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tennisRacket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#town"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#toy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tracks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#traffic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#umbrella"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vegetables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#village"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#WarningSign"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#a_couple_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#a_group_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#at_the"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bath_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#carrying"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#directing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#down_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#filled_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#giving"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCourt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEngine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEquipment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLeave"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaterial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMycelium"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPosition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasScales"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStamen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTrunk"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWheels"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Transmission"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasball"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasbranch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasoffspring"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasparent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haspart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haspetals"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasproperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasroadway"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasroots"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasspores"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haswings"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#holding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#in_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#in_the"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#iscreateby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#islocatedin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ismadeof"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ispartof"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isusedfor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#laying_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#laysEggs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#livesin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#liveswith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#next_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nurses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#on_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#playing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rides_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#riding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sitting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#standing_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#standing_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#swimming"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#swimsin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#to_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#topped"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#travelling_down"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#using"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#watching"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#with_a"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#caption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasArea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasBbox"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCategoryID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCocoUrl"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDateCaptured"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFilename"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFlickUrl"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasImageID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIsCrowd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLicence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMake"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasModel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSegmentation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSupercategory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWidth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hascolor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#height"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#width"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#x_axis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#y_axis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bowl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CowBoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#German_Shepherd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Giraffes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Merry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Motorcycle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#People"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Preety"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rohan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Train"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a_city_street"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accordion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beach"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bench"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bike"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bob"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#broccoli_Soup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#child"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#couch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#desk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dogs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dolphin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#field"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#forest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frisbee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#half_sandwich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#horse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#laptop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#large_bus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#leash"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lusi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#man"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#no"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ocean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#people"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#red_bus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#river"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#road"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sahil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skateboard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#soffy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sohan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#street"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#suit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#surfboards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#table"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tall_building"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tracks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#traffic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trafficLight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#umbrella"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#walking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#white_plate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#woman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#woman1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zebracrossing"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Air_vehicles"/>
+        <Class IRI="#Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airplane"/>
+        <Class IRI="#Air_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animals"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Appliance"/>
+        <Class IRI="#Household_things"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archery"/>
+        <Class IRI="#Target_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BackPack"/>
+        <Class IRI="#OutdoorGear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <Class IRI="#Racket_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseball"/>
+        <Class IRI="#Team_Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BasketBall"/>
+        <Class IRI="#SportsEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <Class IRI="#Team_Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bed"/>
+        <Class IRI="#Furniture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bedding"/>
+        <Class IRI="#Textile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Birds"/>
+        <Class IRI="#Animals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boat"/>
+        <Class IRI="#Water_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bodyofwater"/>
+        <Class IRI="#Geographic_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bowl"/>
+        <Class IRI="#Kitchenware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxing"/>
+        <Class IRI="#Combat_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bridge"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burger"/>
+        <Class IRI="#foods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Land_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Car"/>
+        <Class IRI="#Land_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carpet"/>
+        <Class IRI="#Textile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cat"/>
+        <Class IRI="#Mammals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chair"/>
+        <Class IRI="#Furniture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collor"/>
+        <Class IRI="#PetAccessories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Combat_sport"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cup"/>
+        <Class IRI="#Kitchenware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Curtain"/>
+        <Class IRI="#Textile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cycling"/>
+        <Class IRI="#Individual_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daisy"/>
+        <Class IRI="#Flowers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Darts"/>
+        <Class IRI="#Target_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desk"/>
+        <Class IRI="#Furniture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dishwash"/>
+        <Class IRI="#Appliance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dog"/>
+        <Class IRI="#Mammals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drone"/>
+        <Class IRI="#Air_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dryer"/>
+        <Class IRI="#Appliance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Décor"/>
+        <Class IRI="#Household_things"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eagle"/>
+        <Class IRI="#Birds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electric_vehicle"/>
+        <Class IRI="#Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elephant"/>
+        <Class IRI="#Mammals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <Class IRI="#Animals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flowers"/>
+        <Class IRI="#Plants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodBowl"/>
+        <Class IRI="#PetAccessories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <Class IRI="#Team_Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fries"/>
+        <Class IRI="#foods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frisbee"/>
+        <Class IRI="#RecreationalEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fungi"/>
+        <Class IRI="#Plants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Furniture"/>
+        <Class IRI="#Household_things"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geographic_Feature"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Giraffes"/>
+        <Class IRI="#Mammals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goldfish"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golf"/>
+        <Class IRI="#Individual_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helicopter"/>
+        <Class IRI="#Air_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Highway"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hill"/>
+        <Class IRI="#landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hockey"/>
+        <Class IRI="#Team_Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Household_things"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human"/>
+        <Class IRI="#Mammals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hybrid_vehicle"/>
+        <Class IRI="#Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Individual_sport"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infrastructure"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jacket"/>
+        <Class IRI="#clothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kitchenware"/>
+        <Class IRI="#Household_things"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Land_Vehicles"/>
+        <Class IRI="#Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laptop"/>
+        <Class IRI="#electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lilly"/>
+        <Class IRI="#Flowers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lion"/>
+        <Class IRI="#Mammals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Luxury_vehicle"/>
+        <Class IRI="#Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mammals"/>
+        <Class IRI="#Animals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maple"/>
+        <Class IRI="#Trees"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Martial_Arts"/>
+        <Class IRI="#Combat_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorcycle"/>
+        <Class IRI="#Land_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mushroom"/>
+        <Class IRI="#Fungi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oak"/>
+        <Class IRI="#Trees"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutdoorGear"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oven"/>
+        <Class IRI="#Appliance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Painting"/>
+        <Class IRI="#Décor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pents"/>
+        <Class IRI="#clothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PetAccessories"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PetBed"/>
+        <Class IRI="#PetAccessories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pine"/>
+        <Class IRI="#Trees"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pizza"/>
+        <Class IRI="#foods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plants"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plate"/>
+        <Class IRI="#Kitchenware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Racket_sport"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecreationalEquipment"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refrigerator"/>
+        <Class IRI="#Appliance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robin"/>
+        <Class IRI="#Birds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rose"/>
+        <Class IRI="#Flowers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rug"/>
+        <Class IRI="#Décor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Running"/>
+        <Class IRI="#Individual_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salad"/>
+        <Class IRI="#foods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salmon"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shark"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ship"/>
+        <Class IRI="#Water_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shooting"/>
+        <Class IRI="#Target_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Silverware"/>
+        <Class IRI="#Kitchenware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skateboard"/>
+        <Class IRI="#SportsEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SleepingBag"/>
+        <Class IRI="#OutdoorGear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smartphone"/>
+        <Class IRI="#electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soccer"/>
+        <Class IRI="#Team_Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sofa"/>
+        <Class IRI="#Furniture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparrow"/>
+        <Class IRI="#Birds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sport"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SportsEquipment"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <Class IRI="#Racket_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Submarine"/>
+        <Class IRI="#Water_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sunflower"/>
+        <Class IRI="#Flowers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sunglasses"/>
+        <Class IRI="#OutdoorGear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimming"/>
+        <Class IRI="#Individual_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Table_Tennis"/>
+        <Class IRI="#Racket_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tablet"/>
+        <Class IRI="#electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Target_sport"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Team_Sport"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Television"/>
+        <Class IRI="#electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <Class IRI="#Individual_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tent"/>
+        <Class IRI="#OutdoorGear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Textile"/>
+        <Class IRI="#Household_things"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiger"/>
+        <Class IRI="#Mammals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Towel"/>
+        <Class IRI="#Textile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrafficLight"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train"/>
+        <Class IRI="#Land_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trees"/>
+        <Class IRI="#Plants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truck"/>
+        <Class IRI="#Land_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vase"/>
+        <Class IRI="#Décor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehicles"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Washing_machine"/>
+        <Class IRI="#Appliance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water_vehicles"/>
+        <Class IRI="#Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrestling"/>
+        <Class IRI="#Combat_sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yeast"/>
+        <Class IRI="#Fungi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZebraCrossing"/>
+        <Class IRI="#roadWays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a_river"/>
+        <Class IRI="#Bodyofwater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#accordion"/>
+        <Class IRI="#Furniture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ball"/>
+        <Class IRI="#RecreationalEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beach"/>
+        <Class IRI="#landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bikes"/>
+        <Class IRI="#Land_Vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#broccoli"/>
+        <Class IRI="#vegetables"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#city"/>
+        <Class IRI="#settlement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clothing"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#computer"/>
+        <Class IRI="#electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#couch"/>
+        <Class IRI="#Furniture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dress"/>
+        <Class IRI="#clothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electronic"/>
+        <Class IRI="#Household_things"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#field"/>
+        <Class IRI="#landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#foods"/>
+        <Class IRI="#image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#football"/>
+        <Class IRI="#SportsEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#forest"/>
+        <Class IRI="#landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hay"/>
+        <Class IRI="#foods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#horse"/>
+        <Class IRI="#Mammals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#landform"/>
+        <Class IRI="#Geographic_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#leash"/>
+        <Class IRI="#PetAccessories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mountain"/>
+        <Class IRI="#landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ocean"/>
+        <Class IRI="#Bodyofwater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#road"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roadWays"/>
+        <Class IRI="#Geographic_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sandwich"/>
+        <Class IRI="#foods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#settlement"/>
+        <Class IRI="#Geographic_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shirt"/>
+        <Class IRI="#clothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#street"/>
+        <Class IRI="#roadWays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suit"/>
+        <Class IRI="#clothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#surfbroards"/>
+        <Class IRI="#SportsEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#table"/>
+        <Class IRI="#Furniture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tennisRacket"/>
+        <Class IRI="#SportsEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#town"/>
+        <Class IRI="#settlement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#toy"/>
+        <Class IRI="#RecreationalEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tracks"/>
+        <Class IRI="#roadWays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#traffic"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#umbrella"/>
+        <Class IRI="#OutdoorGear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vegetables"/>
+        <Class IRI="#Plants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#village"/>
+        <Class IRI="#settlement"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Air_vehicles"/>
+        <Class IRI="#Electric_vehicle"/>
+        <Class IRI="#Hybrid_vehicle"/>
+        <Class IRI="#Land_Vehicles"/>
+        <Class IRI="#Luxury_vehicle"/>
+        <Class IRI="#Water_vehicles"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Airplane"/>
+        <Class IRI="#Drone"/>
+        <Class IRI="#Helicopter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Animals"/>
+        <Class IRI="#Household_things"/>
+        <Class IRI="#Plants"/>
+        <Class IRI="#Sport"/>
+        <Class IRI="#Vehicles"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Appliance"/>
+        <Class IRI="#Décor"/>
+        <Class IRI="#Furniture"/>
+        <Class IRI="#Kitchenware"/>
+        <Class IRI="#Textile"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Archery"/>
+        <Class IRI="#Darts"/>
+        <Class IRI="#Shooting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Badminton"/>
+        <Class IRI="#Squash"/>
+        <Class IRI="#Table_Tennis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Baseball"/>
+        <Class IRI="#Basketball"/>
+        <Class IRI="#Football"/>
+        <Class IRI="#Hockey"/>
+        <Class IRI="#Soccer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bedding"/>
+        <Class IRI="#Carpet"/>
+        <Class IRI="#Curtain"/>
+        <Class IRI="#Towel"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Birds"/>
+        <Class IRI="#Fish"/>
+        <Class IRI="#Mammals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Boat"/>
+        <Class IRI="#Ship"/>
+        <Class IRI="#Submarine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bowl"/>
+        <Class IRI="#Cup"/>
+        <Class IRI="#Plate"/>
+        <Class IRI="#Silverware"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Boxing"/>
+        <Class IRI="#Martial_Arts"/>
+        <Class IRI="#Wrestling"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Car"/>
+        <Class IRI="#Motorcycle"/>
+        <Class IRI="#Train"/>
+        <Class IRI="#Truck"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cat"/>
+        <Class IRI="#Dog"/>
+        <Class IRI="#Elephant"/>
+        <Class IRI="#Human"/>
+        <Class IRI="#Lion"/>
+        <Class IRI="#Tiger"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Combat_sport"/>
+        <Class IRI="#Individual_sport"/>
+        <Class IRI="#Racket_sport"/>
+        <Class IRI="#Target_sport"/>
+        <Class IRI="#Team_Sport"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cycling"/>
+        <Class IRI="#Golf"/>
+        <Class IRI="#Running"/>
+        <Class IRI="#Swimming"/>
+        <Class IRI="#Tennis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Daisy"/>
+        <Class IRI="#Lilly"/>
+        <Class IRI="#Rose"/>
+        <Class IRI="#Sunflower"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dishwash"/>
+        <Class IRI="#Dryer"/>
+        <Class IRI="#Oven"/>
+        <Class IRI="#Refrigerator"/>
+        <Class IRI="#Washing_machine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Eagle"/>
+        <Class IRI="#Robin"/>
+        <Class IRI="#Sparrow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Flowers"/>
+        <Class IRI="#Fungi"/>
+        <Class IRI="#Trees"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Goldfish"/>
+        <Class IRI="#Salmon"/>
+        <Class IRI="#Shark"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Maple"/>
+        <Class IRI="#Oak"/>
+        <Class IRI="#Pine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mushroom"/>
+        <Class IRI="#Yeast"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Painting"/>
+        <Class IRI="#Rug"/>
+        <Class IRI="#Vase"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Bowl"/>
+        <NamedIndividual IRI="#Bowl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#CowBoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dog"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Giraffes"/>
+        <NamedIndividual IRI="#Giraffes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cat"/>
+        <NamedIndividual IRI="#Merry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Motorcycle"/>
+        <NamedIndividual IRI="#Motorcycle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#People"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#Preety"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#Rohan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flowers"/>
+        <NamedIndividual IRI="#Rose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Train"/>
+        <NamedIndividual IRI="#Train"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#town"/>
+        <NamedIndividual IRI="#Tree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#street"/>
+        <NamedIndividual IRI="#a_city_street"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#accordion"/>
+        <NamedIndividual IRI="#accordion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#beach"/>
+        <NamedIndividual IRI="#beach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bed"/>
+        <NamedIndividual IRI="#bed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#table"/>
+        <NamedIndividual IRI="#bench"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bikes"/>
+        <NamedIndividual IRI="#bike"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dog"/>
+        <NamedIndividual IRI="#bob"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#broccoli"/>
+        <NamedIndividual IRI="#broccoli_Soup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#child"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#couch"/>
+        <NamedIndividual IRI="#couch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#table"/>
+        <NamedIndividual IRI="#desk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dog"/>
+        <NamedIndividual IRI="#dogs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fish"/>
+        <NamedIndividual IRI="#dolphin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#field"/>
+        <NamedIndividual IRI="#field"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#forest"/>
+        <NamedIndividual IRI="#forest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Frisbee"/>
+        <NamedIndividual IRI="#frisbee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sandwich"/>
+        <NamedIndividual IRI="#half_sandwich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hay"/>
+        <NamedIndividual IRI="#hay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#horse"/>
+        <NamedIndividual IRI="#horse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#computer"/>
+        <NamedIndividual IRI="#laptop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus"/>
+        <NamedIndividual IRI="#large_bus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#leash"/>
+        <NamedIndividual IRI="#leash"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dog"/>
+        <NamedIndividual IRI="#lusi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trees"/>
+        <NamedIndividual IRI="#oak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ocean"/>
+        <NamedIndividual IRI="#ocean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#people"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus"/>
+        <NamedIndividual IRI="#red_bus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#a_river"/>
+        <NamedIndividual IRI="#river"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#road"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#sahil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skateboard"/>
+        <NamedIndividual IRI="#skateboard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Elephant"/>
+        <NamedIndividual IRI="#soffy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#sohan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#street"/>
+        <NamedIndividual IRI="#street"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#suit"/>
+        <NamedIndividual IRI="#suit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#surfbroards"/>
+        <NamedIndividual IRI="#surfboards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#table"/>
+        <NamedIndividual IRI="#table"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#building"/>
+        <NamedIndividual IRI="#tall_building"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tracks"/>
+        <NamedIndividual IRI="#tracks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#traffic"/>
+        <NamedIndividual IRI="#traffic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#trafficLight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OutdoorGear"/>
+        <NamedIndividual IRI="#umbrella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plate"/>
+        <NamedIndividual IRI="#white_plate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#woman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#woman1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#roadWays"/>
+        <NamedIndividual IRI="#zebracrossing"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filled_with"/>
+        <NamedIndividual IRI="#Bowl"/>
+        <NamedIndividual IRI="#broccoli_Soup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#on_a"/>
+        <NamedIndividual IRI="#Bowl"/>
+        <NamedIndividual IRI="#table"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#in_a"/>
+        <NamedIndividual IRI="#CowBoy"/>
+        <NamedIndividual IRI="#field"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riding"/>
+        <NamedIndividual IRI="#CowBoy"/>
+        <NamedIndividual IRI="#horse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#at_the"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <NamedIndividual IRI="#beach"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#on_a"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <NamedIndividual IRI="#bench"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sitting"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WarningSign"/>
+        <NamedIndividual IRI="#Image"/>
+        <NamedIndividual IRI="#trafficLight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPosition"/>
+        <NamedIndividual IRI="#Image"/>
+        <NamedIndividual IRI="#woman1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasroadway"/>
+        <NamedIndividual IRI="#Image"/>
+        <NamedIndividual IRI="#zebracrossing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#laying_on"/>
+        <NamedIndividual IRI="#Image"/>
+        <NamedIndividual IRI="#road"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#laying_on"/>
+        <NamedIndividual IRI="#Merry"/>
+        <NamedIndividual IRI="#desk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#watching"/>
+        <NamedIndividual IRI="#Merry"/>
+        <NamedIndividual IRI="#laptop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_group_of"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#down_a"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#street"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riding"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#bike"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bath_in"/>
+        <NamedIndividual IRI="#Preety"/>
+        <NamedIndividual IRI="#river"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giving"/>
+        <NamedIndividual IRI="#Preety"/>
+        <NamedIndividual IRI="#soffy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#holding"/>
+        <NamedIndividual IRI="#Rohan"/>
+        <NamedIndividual IRI="#leash"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#on_a"/>
+        <NamedIndividual IRI="#Rohan"/>
+        <NamedIndividual IRI="#skateboard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#to_a"/>
+        <NamedIndividual IRI="#Rohan"/>
+        <NamedIndividual IRI="#bob"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#next_to"/>
+        <NamedIndividual IRI="#Train"/>
+        <NamedIndividual IRI="#forest"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#travelling_down"/>
+        <NamedIndividual IRI="#Train"/>
+        <NamedIndividual IRI="#tracks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_group_of"/>
+        <NamedIndividual IRI="#Tree"/>
+        <NamedIndividual IRI="#oak"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLeave"/>
+        <NamedIndividual IRI="#Tree"/>
+        <NamedIndividual IRI="#yes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filled_with"/>
+        <NamedIndividual IRI="#a_city_street"/>
+        <NamedIndividual IRI="#traffic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasparent"/>
+        <NamedIndividual IRI="#bob"/>
+        <NamedIndividual IRI="#lusi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#liveswith"/>
+        <NamedIndividual IRI="#bob"/>
+        <NamedIndividual IRI="#lusi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rides_on"/>
+        <NamedIndividual IRI="#bob"/>
+        <NamedIndividual IRI="#Motorcycle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#holding"/>
+        <NamedIndividual IRI="#child"/>
+        <NamedIndividual IRI="#umbrella"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#on_a"/>
+        <NamedIndividual IRI="#child"/>
+        <NamedIndividual IRI="#couch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sitting"/>
+        <NamedIndividual IRI="#child"/>
+        <NamedIndividual IRI="#child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playing"/>
+        <NamedIndividual IRI="#dogs"/>
+        <NamedIndividual IRI="#dogs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with_a"/>
+        <NamedIndividual IRI="#dogs"/>
+        <NamedIndividual IRI="#frisbee"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#swimming"/>
+        <NamedIndividual IRI="#dolphin"/>
+        <NamedIndividual IRI="#ocean"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_group_of"/>
+        <NamedIndividual IRI="#field"/>
+        <NamedIndividual IRI="#Giraffes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#standing_in"/>
+        <NamedIndividual IRI="#field"/>
+        <NamedIndividual IRI="#field"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#carrying"/>
+        <NamedIndividual IRI="#hay"/>
+        <NamedIndividual IRI="#sahil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#carrying"/>
+        <NamedIndividual IRI="#hay"/>
+        <NamedIndividual IRI="#sohan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#carrying"/>
+        <NamedIndividual IRI="#horse"/>
+        <NamedIndividual IRI="#hay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#liveswith"/>
+        <NamedIndividual IRI="#lusi"/>
+        <NamedIndividual IRI="#bob"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nurses"/>
+        <NamedIndividual IRI="#lusi"/>
+        <NamedIndividual IRI="#bob"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#directing"/>
+        <NamedIndividual IRI="#man"/>
+        <NamedIndividual IRI="#bob"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#in_the"/>
+        <NamedIndividual IRI="#man"/>
+        <NamedIndividual IRI="#suit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_group_of"/>
+        <NamedIndividual IRI="#people"/>
+        <NamedIndividual IRI="#people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#standing_on"/>
+        <NamedIndividual IRI="#people"/>
+        <NamedIndividual IRI="#beach"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with"/>
+        <NamedIndividual IRI="#people"/>
+        <NamedIndividual IRI="#surfboards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#laying_on"/>
+        <NamedIndividual IRI="#person"/>
+        <NamedIndividual IRI="#bed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with_a"/>
+        <NamedIndividual IRI="#person"/>
+        <NamedIndividual IRI="#laptop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sitting"/>
+        <NamedIndividual IRI="#red_bus"/>
+        <NamedIndividual IRI="#street"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#holding"/>
+        <NamedIndividual IRI="#sahil"/>
+        <NamedIndividual IRI="#accordion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#holding"/>
+        <NamedIndividual IRI="#sahil"/>
+        <NamedIndividual IRI="#umbrella"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playing"/>
+        <NamedIndividual IRI="#sohan"/>
+        <NamedIndividual IRI="#sohan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with_a"/>
+        <NamedIndividual IRI="#sohan"/>
+        <NamedIndividual IRI="#soffy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#next_to"/>
+        <NamedIndividual IRI="#tall_building"/>
+        <NamedIndividual IRI="#tall_building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sitting"/>
+        <NamedIndividual IRI="#tall_building"/>
+        <NamedIndividual IRI="#large_bus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#islocatedin"/>
+        <NamedIndividual IRI="#trafficLight"/>
+        <NamedIndividual IRI="#Tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#topped"/>
+        <NamedIndividual IRI="#white_plate"/>
+        <NamedIndividual IRI="#white_plate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with_a"/>
+        <NamedIndividual IRI="#white_plate"/>
+        <NamedIndividual IRI="#half_sandwich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_couple_of"/>
+        <NamedIndividual IRI="#woman"/>
+        <NamedIndividual IRI="#woman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#in_a"/>
+        <NamedIndividual IRI="#woman"/>
+        <NamedIndividual IRI="#field"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playing"/>
+        <NamedIndividual IRI="#woman"/>
+        <NamedIndividual IRI="#frisbee"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPosition"/>
+        <NamedIndividual IRI="#woman1"/>
+        <NamedIndividual IRI="#walking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#using"/>
+        <NamedIndividual IRI="#woman1"/>
+        <NamedIndividual IRI="#umbrella"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ispartof"/>
+        <NamedIndividual IRI="#zebracrossing"/>
+        <NamedIndividual IRI="#road"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#next_to"/>
+        <NamedIndividual IRI="#zebracrossing"/>
+        <NamedIndividual IRI="#woman1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasArea"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasBbox"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal>[100, 100, 200,300]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCategoryID"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCocoUrl"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal>null</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFilename"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal>&quot;dog.jpg&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHeight"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImageID"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIsCrowd"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLicence"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal>null</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal>dog</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSupercategory"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal>null</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWidth"/>
+        <NamedIndividual IRI="#German_Shepherd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCategoryID"/>
+        <NamedIndividual IRI="#Image"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1202232</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDateCaptured"/>
+        <NamedIndividual IRI="#Image"/>
+        <Literal>2013-11-18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFilename"/>
+        <NamedIndividual IRI="#Image"/>
+        <Literal>000000145792.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#Image"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">232699</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLicence"/>
+        <NamedIndividual IRI="#Image"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#height"/>
+        <NamedIndividual IRI="#Image"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">640</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#width"/>
+        <NamedIndividual IRI="#Image"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">396</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#caption"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal>a red rose</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasArea"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">567.34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCategoryID"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCocoUrl"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal>http://images.cocodataset.org/train2017/rose.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDateCaptured"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal>12 12 2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFilename"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal>rose.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFlickUrl"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal>http://farm9.staticflickr.com/8186/8119368305_4e622c8349_z.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHeight"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImageID"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIsCrowd"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLicence"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">rose</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSupercategory"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal>flower</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWidth"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#height"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#width"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#x_axis"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#y_axis"/>
+        <NamedIndividual IRI="#Rose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCocoUrl"/>
+        <NamedIndividual IRI="#bob"/>
+        <Literal>http://images.cocodataset.org/val2017/000000037777.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDateCaptured"/>
+        <NamedIndividual IRI="#bob"/>
+        <Literal>22-12-2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#bob"/>
+        <Literal>coco 2017 dataset</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFilename"/>
+        <NamedIndividual IRI="#bob"/>
+        <Literal>dogs.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFilename"/>
+        <NamedIndividual IRI="#bob"/>
+        <Literal>http://farm7.staticflickr.com/6116/6255196340_da26cf2c9e_z.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHeight"/>
+        <NamedIndividual IRI="#bob"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#bob"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImageID"/>
+        <NamedIndividual IRI="#bob"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIsCrowd"/>
+        <NamedIndividual IRI="#bob"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#bob"/>
+        <Literal>bob</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWidth"/>
+        <NamedIndividual IRI="#bob"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#caption"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal>a mother dog sitting with his son</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasArea"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">569.34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCategoryID"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCocoUrl"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal>http://images.cocodataset.org/train2017/000000000001.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDateCaptured"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22-12-2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFilename"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">Dogs.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFlickUrl"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal>http://farm9.staticflickr.com/8186/8119368305_4e622c8349_z.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHeight"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasID"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasImageID"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIsCrowd"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLicence"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">dog</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSupercategory"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal>Animal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWidth"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#height"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#width"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#x_axis"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#y_axis"/>
+        <NamedIndividual IRI="#lusi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hascolor"/>
+        <NamedIndividual IRI="#trafficLight"/>
+        <Literal>Green</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#WarningSign"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#eats"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFur"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLeave"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMycelium"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasScales"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasStamen"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTrunk"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasbranch"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasoffspring"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasparent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#haspart"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#haspetals"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasproperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasroots"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasspores"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#haswings"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#iscreateby"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#islocatedin"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ismadeof"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ispartof"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isusedfor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#laysEggs"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#livesin"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#liveswith"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#nurses"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#swimsin"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCourt"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEngine"/>
+        <Class IRI="#Vehicles"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <Class IRI="#Household_things"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSize"/>
+        <Class IRI="#Household_things"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWheels"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Transmission"/>
+        <Class IRI="#Vehicles"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasball"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasArea"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasBbox"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasCategoryID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasCocoUrl"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDateCaptured"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasFilename"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasHeight"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasImageID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasIsCrowd"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasLicence"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasSegmentation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasSupercategory"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasWidth"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hascolor"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#height"/>
+        <DataProperty IRI="#hasBbox"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#width"/>
+        <DataProperty IRI="#hasBbox"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#x_axis"/>
+        <DataProperty IRI="#hasBbox"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#y_axis"/>
+        <DataProperty IRI="#hasBbox"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#caption"/>
+        <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasArea"/>
+        <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasBbox"/>
+        <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCategoryID"/>
+        <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCocoUrl"/>
+        <Class IRI="#image"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDateCaptured"/>
+        <Class IRI="#image"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDescription"/>
+        <Class IRI="#Household_things"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDescription"/>
+        <Class IRI="#Sport"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFilename"/>
+        <Class IRI="#image"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFlickUrl"/>
+        <Class IRI="#image"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasHeight"/>
+        <Class IRI="#image"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasID"/>
+        <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasID"/>
+        <Class IRI="#Category"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasID"/>
+        <Class IRI="#image"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasImageID"/>
+        <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasIsCrowd"/>
+        <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLicence"/>
+        <Class IRI="#image"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMake"/>
+        <Class IRI="#Vehicles"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasModel"/>
+        <Class IRI="#Vehicles"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Category"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSegmentation"/>
+        <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSupercategory"/>
+        <Class IRI="#Category"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWidth"/>
+        <Class IRI="#image"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYear"/>
+        <Class IRI="#Vehicles"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hascolor"/>
+        <Class IRI="#image"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#height"/>
+        <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#width"/>
+        <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#x_axis"/>
+        <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#y_axis"/>
+        <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#caption"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasArea"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasBbox"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCategoryID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCocoUrl"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDateCaptured"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFilename"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFlickUrl"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasHeight"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasID"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasImageID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIsCrowd"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLicence"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLicence"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMake"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasModel"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSegmentation"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSupercategory"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWidth"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hascolor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#height"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#width"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#x_axis"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#y_axis"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#eats</IRI>
+        <Literal xml:lang="en">relates a living thing to its source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasArea</IRI>
+        <Literal xml:lang="en">Area of annotation object in pixels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasBbox</IRI>
+        <Literal xml:lang="en">Bounding box coordinates (x,y,w,h) of the annotated object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCategoryID</IRI>
+        <Literal xml:lang="en">category ID of the annotated object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCocoUrl</IRI>
+        <Literal xml:lang="en">URL of the image in coco dataset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCourt</IRI>
+        <Literal xml:lang="en">Relates a sport to its court</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDateCaptured</IRI>
+        <Literal xml:lang="en">Date when the image was captured</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDescription</IRI>
+        <Literal xml:lang="en">Realts a sport to its description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDescription</IRI>
+        <Literal>relates a household thing to its description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEngine</IRI>
+        <Literal xml:lang="en">Relates a vehicle to its engine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEquipment</IRI>
+        <Literal xml:lang="en">Relates a sport to its equipment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFilename</IRI>
+        <Literal xml:lang="en">File name of the image</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFlickUrl</IRI>
+        <Literal xml:lang="en">URL of the image of FlickKr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFur</IRI>
+        <Literal>relates a birds to its fur type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasHeight</IRI>
+        <Literal xml:lang="en">Height of the image in pixels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasID</IRI>
+        <Literal xml:lang="en">unique identifier for the image, Annotation and Category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasImageID</IRI>
+        <Literal xml:lang="en">ID of the image that this annotation belongs to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasIsCrowd</IRI>
+        <Literal xml:lang="en">Whether the annotated object is a crowd (i.e. multiple instance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasLeave</IRI>
+        <Literal>relates a plants to its leaves type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasLicence</IRI>
+        <Literal xml:lang="en">License under which the image is released (eg. cc-BY, cc0,etc)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasMake</IRI>
+        <Literal xml:lang="en">Relates a vehicle to its make</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasMaterial</IRI>
+        <Literal xml:lang="en">Relates a household thing to its material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasModel</IRI>
+        <Literal xml:lang="en">Relates a vehicle to its model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasMycelium</IRI>
+        <Literal>relates a fungus to its mycelium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasName</IRI>
+        <Literal xml:lang="en">Human-readable name of te category(e.g. &quot;dog&quot; ,&quot;car&quot; , etc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasScales</IRI>
+        <Literal>relates a fish to its scale type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSegmentation</IRI>
+        <Literal xml:lang="en">polygon coordinates of the annotated object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSize</IRI>
+        <Literal>Relates a houshold thing to its size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasStamen</IRI>
+        <Literal>relates a flower to its stamen type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSupercategory</IRI>
+        <Literal xml:lang="en">Super category that this category belongs to (eg. &quot;animal&quot; for &quot;dog&quot;)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTrunk</IRI>
+        <Literal>relates a tree to its trunk type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWheels</IRI>
+        <Literal xml:lang="en">Relates a vehicle to its engine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWidth</IRI>
+        <Literal xml:lang="en">width of the image in pixels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasYear</IRI>
+        <Literal xml:lang="en">Relates a vehicle to its year</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Transmission</IRI>
+        <Literal xml:lang="en">Relates a vehicle to its transmission</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasball</IRI>
+        <Literal xml:lang="en">relates a sport to its ball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasbranch</IRI>
+        <Literal xml:lang="en">relates a tress to its branch type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasoffspring</IRI>
+        <Literal>relates an animal to its offspring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#haspart</IRI>
+        <Literal>relates a mammals to its parts (eg. organs, limbs )</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#haspetals</IRI>
+        <Literal>relates a flowers to its petal type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasroots</IRI>
+        <Literal>relates a tree to its root type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasspores</IRI>
+        <Literal>relates a fungus to its spore type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#haswings</IRI>
+        <Literal>relates a bird to its wings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#iscreateby</IRI>
+        <Literal>relates household thing to its creator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ismadeof</IRI>
+        <Literal>relates a non living thing to its material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ispartof</IRI>
+        <Literal>relates a plants to its larger environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isusedfor</IRI>
+        <Literal>relates household thing uses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#laysEggs</IRI>
+        <Literal>relates a bird to its eggs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#livesin</IRI>
+        <Literal>relates a living thing to its habitat(eg. forest,ocean)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#liveswith</IRI>
+        <Literal>relates an animal to its companion or group</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#nurses</IRI>
+        <Literal>relates a mammal to its young one</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#swimsin</IRI>
+        <Literal>relates a fish to its aquatic environment</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
