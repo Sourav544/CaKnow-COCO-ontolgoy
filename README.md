@@ -7,9 +7,12 @@ If you find this repo useful, please cite our paper.
 
 ```bibtex
 @inproceedings{sou2026caknow,
-  title={CaKnow: Connecting Images by Representing Captions as Knowledge Graph},
-  author={Sourav Pandey, Shreya Gupta, and Ashish Singh Patel},
-  booktitle={Proceedings of the 2nd International Conference on Artificial Intelligence, Computing Technologies, Internet of Things (IoT), and Data Analytics – AICTA 2024.},
-  pages={1549},
-  year={2026}
+  title="CaKnow: Connecting Images by Representing Captions as Knowledge Graph",
+  author="Sourav Pandey, Shreya Gupta, and Ashish Singh Patel",
+  booktitle="Artificial Intelligence for Next Generation Computing, Volume 1",
+  year="2026",
+  publisher="Springer Nature Singapore",
+  address="Singapore",
+  pages="325--338",
+  isbn="978-981-95-0701-6"
 }
